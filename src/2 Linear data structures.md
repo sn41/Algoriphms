@@ -63,8 +63,8 @@ fun main() {
 **Структура связного списка (Mermaid):**
 ```mermaid
 graph LR
-    Node1[Val: 1 | Next] --> Node2[Val: 2 | Next]
-    Node2 --> Node3[Val: 3 | Next]
+    Node1["Val: 1 | Next"] --> Node2["Val: 2 | Next"]
+    Node2 --> Node3["Val: 3 | Next"]
     Node3 --> Null[null]
 ```
 
